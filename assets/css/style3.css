@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2? familia = Fascinado &family= Indie+Flower & display=swap');
+*{
+    margin: 0%;
+    padding: 0% ;
+}
+body{
+    background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
+    font-family: 'Indie Flower', cursive;
+    display: grid;
+    grid-template-areas:"pizzas pizzas pizzas"
+                        "navbar navbar navbar"
+                        "principal principal principal"
+                        "piso piso piso";
+    grid-template-rows: auto auto auto auto ;
+    
+    grid-template-columns: repeat(3, 1fr); 
+}
+.pizzas{
+    grid-area: pizzas;
+}
+.navbar{
+    grid-area: navbar;
+}
+.principal{
+    grid-area: principal;
+}
+.piso{
+    grid-area: piso;
+}
+    
+
+
+.video {
+    margin: 20px;
+    margin-left: 250px;
+}
+body header img {
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color:aqua;
+    text-align: center;
+    font-size: xxx-large;
+    margin: 10px;
+    padding: 0%;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0%;
+    height: 20px;
+    background-color: aqua;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+.redes img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+
+.navbar ul {
+    list-style: none;
+    color: aqua;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 5px;
+    color: blueviolet;
+    position: relative;
+    
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color:aqua; 
+}
+
+footer h5{
+    color: white;
+}
+@media(max-width:576px){
+    .pizzas img{
+        width: 39.5px;
+        height: 39.5px;
+    }
+    .video{
+        width: 500px;
+        height: 500px;
+        margin-left: 35px;
+    }
+}
