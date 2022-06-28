@@ -14,7 +14,7 @@ body {
     
     grid-template-columns: repeat(3, 1fr);                        
     background-image:url(../img/leña\ al\ fuego\ completa.jpeg);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     font-family: 'Indie Flower', cursive;
 }

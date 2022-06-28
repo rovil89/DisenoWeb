@@ -5,6 +5,8 @@
 }
 body{
     background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
+    
+    
     font-family: 'Indie Flower', cursive;
     display: grid;
     grid-template-areas:"pizzas pizzas pizzas"
@@ -12,7 +14,6 @@ body{
                         "principal principal principal"
                         "piso piso piso";
     grid-template-rows: auto auto auto auto ;
-    
     grid-template-columns: repeat(3, 1fr); 
 }
 .pizzas{
@@ -38,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-h1{
+h2{
     color: aqua;
     text-align: center;
     font-size: xxx-large;
@@ -113,10 +114,7 @@ main p{
     margin: 20px;
     border-color: aqua;
 }
-.cifica:hover{
-    transform: rotateX(360deg) ;
-    transition: 1.5s;
-}
+
 @media(max-width:576px){
     .pizzas img{
         width: 39.5px;

@@ -15,7 +15,6 @@ body{
                         "principal principal principal"
                         "piso piso piso";
     grid-template-rows: auto auto auto auto ;
-    
     grid-template-columns: repeat(3, 1fr); 
 }
 .pizzas{
