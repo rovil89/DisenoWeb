@@ -3,16 +3,16 @@
     margin: 0%;
     padding: 0%;
 }
-body{
+body {
     display: grid;
-    grid-template-areas:"pizzas pizzas pizzas"
-                        "navbar navbar navbar"
-                        "principal principal principal"
-                        "piso piso piso";
+    grid-template-areas:"navbar navbar navbar navbar"
+                        "pizzas pizzas pizzas pizzas"
+                        "principal principal principal principal"
+                        "piso piso piso piso";
     grid-template-rows: auto auto auto auto ;
     
-    grid-template-columns: repeat(3, 1fr); 
-    background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
+    grid-template-columns: repeat(4, 1fr);                        
+    background-image:url(../img/leña\ al\ fuego\ completa.jpeg);
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Indie Flower', cursive;
@@ -71,10 +71,12 @@ main div {
     justify-content: center;
     align-content: center;
     
+    
 }
 .btn1{
     margin: 5px;
     padding: 10px;
+    
 }
 .btn2{
     margin: 5px;
@@ -101,20 +103,67 @@ main div {
     list-style: none;
     color: aqua;
 }
-.navbar ul li{
-    display: inline-block;
-    margin-left: 5px;
-    color: blueviolet;
-    position: relative;
-}
+
 .navbar ul li ul{
     display: none;
 }
-.navbar ul li:hover ul{
-    display: block;
-    position: absolute;
-    background-color:aqua;
+.pizzapared:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
+.a:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.b:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.c:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.d:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.e:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.f:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.g:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.h:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.i:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.j:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.k:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.l:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.m:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+
 @media(max-width:576px){
     .pizzas img{
         width: 39.5px;

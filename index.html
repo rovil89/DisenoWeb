@@ -5,28 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/index.css">
     <title>Somos Pacifica</title>
 </head>
 
-<body class="container">
-    <header class="pizzas" >
-        <img class="a" src="./assets/img/4ke.jpeg" alt="">
-        <img class="b" src="./assets/img/Berenjena.jpeg" alt="">
-        <img class="c" src="./assets/img/jamonMorron.jpeg" alt="">
-        <img class="d" src="./assets/img/Provolone.jpeg" alt="">
-        <img class="e" src="./assets/img/RoqueMiel.jpeg" alt="">
-        <img class="f" src="./assets/img/CebHong.jpeg" alt="">
-        <img class="g" src="./assets/img/cebollaHongVeg.jpeg" alt="">
-        <img class="h" src="./assets/img/Culebrita.jpeg" alt="">
-        <img class="i" src="/assets/img/Faina.jpeg" alt="">
-        <img class="j" src="./assets/img/jamonMorron.jpeg" alt="">
-        <img class="k" src="./assets/img/Muzza.jpeg" alt="">
-        <img class="l" src="./assets/img/MuzzaVegana.jpeg" alt="">
-        <img class="m" src="./assets/img/RucuCrudo.jpeg" alt="">
-    </header>
-    <nav class="navbar navbar-expand-lg bg-light">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<body class="container-fluid">
+    
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="w-25" src="./assets/img/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
@@ -37,44 +29,64 @@
             <li class="nav-item">
                 <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Productos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./pages/jymorron.html">Jamon y Morron</a></li>
-                <li><a class="dropdown-item" href="./pages/berenjena.html">Berenjena</a></li>
-                <li><a class="dropdown-item" href="./pages/provolone.html">Provolone</a></li>
-                <li><a class="dropdown-item" href="./pages/4ke.html">4Ke</a></li>
-                <li><a class="dropdown-item" href="./pages/roqueymiel.html">Roque y Miel</a></li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/ubicacion.html">Ubicacion</a>
+                <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
             </li>
             </ul>
         </div>
         </div>
-        <ul>
-            <div class="redes">
-                <li><a href="https://www.facebook.com/Somos-Pacifica-103058182045921"><img src ="../assets/img/facebook.png"  alt=""></a></li>
-                <li><a href="https://www.instagram.com/somospacifica/"><img src="../assets/img/instagram.png" alt=""></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5491156526573"><img src="../assets/img/whatsapp.png" alt=""></a></li>
-            </div>
-        </ul>
-    </nav>
+      </nav>
     
-
-    <main class="principal">
-        <div class="divpr">
-        <h1>Somos Pacifica</h1>
-
-        <div class="imagenesDiv">
-            <img class="pizzapared" src="./assets/img/pizza pared.jpg" alt="">
-            <img class="pizzapared" src="./assets/img/pizza horno.jpg" alt="">
+    <header class="pizzas" >
+        <div id="carouselExampleIndicators" class="carousel slide  align-item-center  " data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/pizza horno 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/cebollaHongVeg 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/jamonMorron 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Leña Horno 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/4ke2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/RoqueMiel 2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-        <p>LEÑA AL FUEGO
+    </header>
+    
+    <main class="principal">
+        <h1>Somos Pacifica</h1>
+         
+        <div class="row justify-contet-around aling-items-center">     
+            <div class="col-6"><img class="img-fluid" src="./assets/img/Caja Morfame.jpeg" alt=""></div>
+            <p class="col-4 mt-5 ms-5 p-5 text-end">LEÑA AL FUEGO
 
             De jueves a domingos se prende el horno 🔥 de donde salen esas pizzitas que tanto te gustan.
             
@@ -82,11 +94,13 @@
 
             🙌🏼🙌🏼</p>
         </div>
+    </div>
     </main>
     
     <footer class="piso">
         <hr>
         <h5>©2022 Rodrigo Vildoza. Derechos reservados</h5>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

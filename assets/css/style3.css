@@ -3,17 +3,19 @@
     margin: 0%;
     padding: 0% ;
 }
-body{
-    background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
-    font-family: 'Indie Flower', cursive;
+body {
     display: grid;
-    grid-template-areas:"pizzas pizzas pizzas"
-                        "navbar navbar navbar"
-                        "principal principal principal"
-                        "piso piso piso";
+    grid-template-areas:"navbar navbar navbar navbar"
+                        "pizzas pizzas pizzas pizzas"
+                        "principal principal principal principal"
+                        "piso piso piso piso";
     grid-template-rows: auto auto auto auto ;
     
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(4, 1fr);                        
+    background-image:url(../img/leña\ al\ fuego\ completa.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Indie Flower', cursive;
 }
 .pizzas{
     grid-area: pizzas;
