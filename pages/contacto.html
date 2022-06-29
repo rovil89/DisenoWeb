@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/style2.css">
     <title>Somos Pacifica</title>
 </head>
-<body>
+<body class="container-fluid">
 
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
@@ -26,13 +26,13 @@
                 <a class="nav-link active" href="./contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/productos.html">Productos</a>
+                <a class="nav-link" href="./productos.html">Productos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
+                <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
             </li>
             </ul>
         </div>
@@ -55,27 +55,29 @@
         
     </header>
 
-    <main class="principal">
+    <main class="principal ">
         <h1>Contacto</h1>
-        <div class="Formulario">
-        <fieldset>
-        <legend> Datos Personales</legend>
-        <form action="contacto.php" method="get">
-        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese Nombre y Apellido" required>
-        <input type="number" name="DNI" id="DNI" placeholder="Ingrese DNI" required>
-        <input type="email" name="Email" id="Email" placeholder="Ingrese Email" required>
-        <br>
-        <br>
-        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Pizza Favorita..y en que momento del dia te gusta mas"></textarea>
-        <br>
-        
-        <select name="Horario">
-            <option value="Maniana">Mañana</option>
-            <option value="Mediodia">Mediodia</option>
-            <option value="Tarde">Tarde</option>
-            <option value="Noche">Noche</option>
-            <option value="Madrugada">Madrugada</option>
-        </select>
+        <form>
+            <div class="Formulario mb-3 col-12 col-xl-6 ">
+            <label for="Nombre" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="Nombre" placeholder="Ingrese Nombre y Apellido" required>
+            
+            </div>
+            <div class="mb-3 col-12 col-xl-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese Email" required>
+            </div>
+            <div class="mb-3 col-12 col-xl-6">
+                <label for="exampleFormControlTextarea1" class="form-label">Contanos</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Contanos cual es tu pizza favorita"></textarea>
+            </div>
+            <label for="select1">Horario para tu pizza</label>
+            <select class="select1 form-select mb-3 col-6 " >
+                <option selected>Mañana</option>
+                <option value="1">Mediodia</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+            </select>
         
         <div class="opciones">        
             <label for="Sexo">Hombre</label>
@@ -91,12 +93,11 @@
             <label for="acepto">Acepto Terminos y Condiciones</label>
             <input type="checkbox" name="Acepto" id="si" required>
         </div>
-        </fieldset>
+        
         </div>
         
         <div class="btn">
-            <input class="btn1" type="submit" value="Enviar">
-            <input class="btn2" type="reset" value="Reiniciar">
+            <input class="btn1 col-6 " type="submit" value="Enviar">
         </div>
         </form>
     </main>

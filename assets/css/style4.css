@@ -20,6 +20,14 @@ body {
     background-attachment: fixed;
     font-family: 'Indie Flower', cursive;
 }
+.navbar{
+    grid-area: navbar;
+    background-color: aqua;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
 .pizzas{
     grid-area: pizzas;
 }
@@ -35,7 +43,7 @@ body {
 
 body header img {
     display: inline-block;
-    width: 98px;
+    width: 97.5px;
     height: 98px;
 }
 
@@ -43,22 +51,15 @@ h1{
     color: aqua;
     text-align: center;
     font-size: xx-large;
+}
+hr{
+    color: white;
     
 }
 body main{
     padding-left: 50px;
 }
 
-.navbar{
-    width: 100%;
-    margin: 0%;
-    height: 20px;
-    background-color: aqua;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    top: 0;
-}
 .redes img{
     width: 20px;
     height: 20px;
@@ -77,21 +78,11 @@ body main{
     color: aqua;
     
 }
-.navbar ul li{
-    display: inline-block;
-    margin-left: 5px;
-    color: blueviolet;
-    position: relative;
-    
-}
+
 .navbar ul li ul{
     display: none;
 }
-.navbar ul li:hover ul {
-    display: block;
-    position: absolute;
-    background-color:aqua; 
-}
+
 
 footer h5{
     color: white;

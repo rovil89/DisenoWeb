@@ -17,6 +17,14 @@ body {
     background-attachment: fixed;
     font-family: 'Indie Flower', cursive;
 }
+.navbar{
+    grid-area: navbar;
+    background-color: aqua;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
 
 .pizzas{
     grid-area: pizzas;
@@ -39,10 +47,13 @@ body main{
 }
 body header img {
     display: inline-block;
-    width: 98px;
+    width: 97.5px;
     height: 98px;
 }
-
+hr{
+    color: white;
+    
+}
 h1{
     color: aqua;
     text-align: center;
@@ -66,32 +77,31 @@ main div {
 .opciones{
     font-size: 15px;
 }
+.formulario{
+    
+}
+.select1{
+    width: 50%;
+}
 .btn{
     display:flex ;
-    justify-content: center;
-    align-content: center;
-    
+    justify-content: start;
     
 }
 .btn1{
     margin: 5px;
     padding: 10px;
+    background-color: aqua;
+    color: black;
     
 }
 .btn2{
     margin: 5px;
     padding: 10px;
-}
-.navbar{
-    width: 100%;
-    margin: 0%;
-    height: 20px;
     background-color: aqua;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    top: 0;
+    color: black;
 }
+
 .redes img{
     width: 20px;
     height: 20px;
@@ -107,66 +117,9 @@ main div {
 .navbar ul li ul{
     display: none;
 }
-.pizzapared:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-.a:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.b:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.c:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.d:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.e:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.f:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.g:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.h:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.i:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.j:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.k:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.l:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-.m:hover{
-    transform: rotateY(360deg);
-    transition: 1s;
-}
-
 @media(max-width:576px){
     .pizzas img{
-        width: 39.5px;
-        height: 39.5px;
+        width: 37.3px;
+        height: 40px;
     }
 }
