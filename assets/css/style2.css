@@ -38,6 +38,12 @@ body {
 }
 .piso{
     grid-area: piso;
+    background-color:aqua 
+}
+footer h5{
+    font-style: italic;
+    color: black;
+    font-size: 15px;
 }
 body main{
     color: white;
@@ -61,9 +67,6 @@ h1{
     
 }
 
-footer h5{
-    color: white;
-}
 a{
     text-decoration: none;
 }
@@ -75,11 +78,9 @@ main div {
     padding: 5px;
 }
 .opciones{
-    font-size: 15px;
+    font-size: 20px;
 }
-.formulario{
-    
-}
+
 .select1{
     width: 50%;
 }
@@ -88,19 +89,16 @@ main div {
     justify-content: start;
     
 }
-.btn1{
+.btn{
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
     background-color: aqua;
-    color: black;
-    
+    color: black;   
 }
-.btn2{
-    margin: 5px;
-    padding: 10px;
-    background-color: aqua;
-    color: black;
+.acepto{
+    font-size: 15px;
 }
+
 
 .redes img{
     width: 20px;
@@ -121,5 +119,8 @@ main div {
     .pizzas img{
         width: 37.3px;
         height: 40px;
+    }
+    .select1{
+        width: 100%;
     }
 }

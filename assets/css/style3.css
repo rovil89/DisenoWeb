@@ -36,14 +36,12 @@ body {
 }
 .piso{
     grid-area: piso;
+    background-color: aqua;
 }
     
 
 
-.video {
-    margin: 20px;
-    margin-left: 250px;
-}
+
 body header img {
     display: inline-block;
     width: 97.5px;
@@ -85,16 +83,14 @@ hr{
 
 
 footer h5{
-    color: white;
+    font-style: italic;
+    color: black;
+    font-size: 15px;
 }
 @media(max-width:576px){
     .pizzas img{
-        width: 39.5px;
-        height: 39.5px;
+            width: 37.3px;
+            height: 40px;
+        }
+    
     }
-    .video{
-        width: 500px;
-        height: 500px;
-        margin-left: 35px;
-    }
-}
