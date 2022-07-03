@@ -87,6 +87,10 @@ footer h5{
     color: black;
     font-size: 15px;
 }
+footer img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
 @media(max-width:576px){
     .pizzas img{
             width: 37.3px;

@@ -39,12 +39,7 @@ header img {
   width: 97.5px;
   height: 98px;
 }
-@media (max-width: 576px) {
-  header img {
-    width: 37.8px;
-    height: 40px;
-  }
-}
+
 
 main {
   grid-area: principal;
@@ -54,7 +49,7 @@ img {
   flex-direction: row;
 }
 
-img:hover {
+main img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
@@ -84,4 +79,15 @@ footer img {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+  
+}
+footer img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+@media (max-width: 576px) {
+  header img {
+    width: 37.8px;
+    height: 40px;
+  }
 }
