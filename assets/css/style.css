@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "navbar navbar navbar navbar" "pizzas pizzas pizzas pizzas" "principal principal principal principal" "piso piso piso piso";
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
+  background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Indie Flower", cursive;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: aqua;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+.navbar ul {
+  list-style: none;
+  color: aqua;
+}
+.navbar li ul {
+  display: none;
+}
+
+header {
+  grid-area: pizzas;
+}
+header img {
+  display: inline-block;
+  width: 97.5px;
+  height: 98px;
+}
+@media (max-width: 576px) {
+  header img {
+    width: 37.8px;
+    height: 40px;
+  }
+}
+
+main {
+  grid-area: principal;
+}
+
+img {
+  flex-direction: row;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+}
+
+footer {
+  grid-area: piso;
+  background-color: aqua;
+}
+footer h5 {
+  font-style: italic;
+  color: black;
+  font-size: 15px;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

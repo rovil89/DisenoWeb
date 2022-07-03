@@ -1,0 +1,15 @@
+header{
+    grid-area: pizzas ;
+
+    img{
+    display: inline-block;
+    width: 97.5px;
+    height: 98px;
+    }
+@media(max-width:576px){
+    img{
+        width: 37.8px;
+        height: 40px;
+    }
+}
+}

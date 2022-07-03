@@ -1,0 +1,17 @@
+.navbar{ 
+    grid-area: navbar;
+    background-color: aqua;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+
+ul {
+    list-style: none;
+    color: aqua;
+    
+} 
+li ul{
+    display: none;
+}
+}
