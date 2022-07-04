@@ -2,11 +2,12 @@ main{
     grid-area: principal;
     }
     img {
-    flex-direction: row;}
+    flex-direction: row;
     
     &:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: 1s;
+    }
     }
     h1 {
     color: aqua;
