@@ -39,6 +39,7 @@ header img {
   width: 97.5px;
   height: 98px;
 }
+
 @media (max-width: 576px) {
   header img {
     width: 37.8px;
@@ -50,13 +51,19 @@ main {
   grid-area: principal;
 }
 
-img {
+.morfame {
   flex-direction: row;
 }
-img:hover {
+.morfame:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+.tarjeta{
+  margin: 5px;
+  padding: 10px;
+  
+}
+
 
 h1 {
   color: aqua;
