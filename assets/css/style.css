@@ -39,7 +39,6 @@ header img {
   width: 97.5px;
   height: 98px;
 }
-
 @media (max-width: 576px) {
   header img {
     width: 37.8px;
@@ -51,19 +50,13 @@ main {
   grid-area: principal;
 }
 
-.morfame {
+img {
   flex-direction: row;
 }
 .morfame:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.tarjeta{
-  margin: 5px;
-  padding: 10px;
-  
-}
-
 
 h1 {
   color: aqua;
@@ -94,4 +87,26 @@ footer img {
 footer img:hover {
   transform: scale(1.1);
   transition: 1s;
+}
+.tarjeta{
+  margin: 5px;
+}
+.btn{
+  margin: 5px;
+  color: white;
+  
+}
+.btn:hover{
+  transform: none;
+}
+.btn-primario {
+  background-color: rgb(134, 235, 39);
+}
+
+.btn-secundario {
+  background-color: rgb(12, 206, 240);
+}
+
+.btn-terciario {
+  background-color: rgba(225, 40, 241, 0.932);
 }
