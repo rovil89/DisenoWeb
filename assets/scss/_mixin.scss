@@ -2,3 +2,6 @@
     width: $ancho;
     height: $alto;
 };
+.tarjeta {
+    @include tamanio(100,auto );
+};

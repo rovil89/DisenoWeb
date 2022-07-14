@@ -14,22 +14,23 @@ $colores:(
     
 };
 $card:(
-    margen: 5px,
+    margen: 10px,
     padding: 5px 5px,
     bordes: 5px,
+    color: #fff , 
         
 );
-
-
 
 .tarjeta{
     margin: map-get($card , margen );
     padding: map-get($card , padding );
-    @include tamanio (30%, 50%);
+        
 };
-.img-card{
-    @include tamanio(100%, 100%)
+button{
+    color: map-get($card , color );
+    
 }
+
 
 
 

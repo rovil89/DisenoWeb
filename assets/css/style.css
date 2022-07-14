@@ -102,13 +102,21 @@ footer img:hover {
 }
 
 .tarjeta {
-  margin: 5px;
+  margin: 10px;
   padding: 5px 5px;
 }
 
+button {
+  color: #fff;
+}
+
 .btn, .btn-primario, .btn-secundario, .btn-terciario {
-  margin: 5px;
+  margin: 10px;
   padding: 5px 5px;
   border-radius: 5px;
-  color: white;
+}
+
+.tarjeta {
+  width: 100;
+  height: auto;
 }
