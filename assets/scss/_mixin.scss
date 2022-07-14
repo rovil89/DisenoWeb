@@ -3,5 +3,11 @@
     height: $alto;
 };
 .tarjeta {
-    @include tamanio(100,auto );
+    @include tamanio(100%,auto );
+};
+button{
+    @include tamanio(95%,auto);
+};
+.imgCard {
+    @include tamanio(100%,auto);
 };
