@@ -1,0 +1,6 @@
+.btn{
+    margin: map-get($card , margen );
+    padding: map-get($card , padding );
+    border-radius: map-get($card , bordes );
+    
+};

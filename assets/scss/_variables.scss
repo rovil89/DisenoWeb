@@ -2,27 +2,35 @@ $colores:(
     primario: rgb(134, 235, 39), 
     secundario:rgb(12, 206, 240),
     terciario:rgba(225, 40, 241, 0.932),
+    
 );
 @each $clave , $var in $colores {
     .btn-#{$clave}{
+        @extend .btn;
         background-color: $var;
+        
     }
 
     
 };
 $card:(
     margen: 5px,
-    padding: 5px 5px
+    padding: 5px 5px,
+    bordes: 5px,
+        
 );
 
-.btn{
-    margin: map-get($card , margen ),
-};
+
 
 .tarjeta{
     margin: map-get($card , margen );
     padding: map-get($card , padding );
+    @include tamanio (30%, 50%);
 };
+.img-card{
+    @include tamanio(100%, 100%)
+}
+
 
 
 

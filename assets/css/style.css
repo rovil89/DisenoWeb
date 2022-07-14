@@ -50,7 +50,7 @@ main {
   grid-area: principal;
 }
 
-img {
+.morfame {
   flex-direction: row;
 }
 .morfame:hover {
@@ -101,11 +101,14 @@ footer img:hover {
   background-color: rgba(225, 40, 241, 0.932);
 }
 
-.btn {
-  margin: 5px;
-}
-
 .tarjeta {
   margin: 5px;
   padding: 5px 5px;
+}
+
+.btn, .btn-primario, .btn-secundario, .btn-terciario {
+  margin: 5px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: white;
 }
