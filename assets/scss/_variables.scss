@@ -9,5 +9,24 @@ $colores:(
     }
 
     
-}
+};
+$card:(
+    margen: 5px,
+    padding: 5px 5px
+);
+
+.btn{
+    margin: map-get($card , margen ),
+};
+
+.tarjeta{
+    margin: map-get($card , margen );
+    padding: map-get($card , padding );
+};
+
+
+
+
+
+
 

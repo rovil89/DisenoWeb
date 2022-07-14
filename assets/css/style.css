@@ -88,17 +88,7 @@ footer img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.tarjeta{
-  margin: 5px;
-}
-.btn{
-  margin: 5px;
-  color: white;
-  
-}
-.btn:hover{
-  transform: none;
-}
+
 .btn-primario {
   background-color: rgb(134, 235, 39);
 }
@@ -109,4 +99,13 @@ footer img:hover {
 
 .btn-terciario {
   background-color: rgba(225, 40, 241, 0.932);
+}
+
+.btn {
+  margin: 5px;
+}
+
+.tarjeta {
+  margin: 5px;
+  padding: 5px 5px;
 }
