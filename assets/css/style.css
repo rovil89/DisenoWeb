@@ -9,7 +9,7 @@ body {
   grid-template-areas: "navbar navbar navbar navbar" "pizzas pizzas pizzas pizzas" "principal principal principal principal" "piso piso piso piso";
   grid-template-rows: auto auto auto auto;
   grid-template-columns: repeat(4, 1fr);
-  background-image: url(../img/leña\ al\ fuego\ completa.jpeg);
+  background-image: url(../img/leña\ al\ fuego\ completa.jpg);
   background-size: cover;
   background-attachment: fixed;
   font-family: "Indie Flower", cursive;
@@ -23,7 +23,6 @@ body {
   justify-content: space-between;
   top: 0;
   z-index: 1;
-  
 }
 .navbar ul {
   list-style: none;
