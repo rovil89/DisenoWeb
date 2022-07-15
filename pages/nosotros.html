@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style5.css">
     <title>Somos Pacifica</title>
 </head>
@@ -51,16 +52,16 @@
             </ul>
         </div>
         </div>
-      </nav>
+    </nav>
     
     <main class="principal">
-        <div class="nosotros">
+        <div class="nosotros"data-aos="zoom-in-right">
             <h2>NOSOTROS</h2>
             <p class="col-sm-12 text-center">Abrazamos fuertemente a todos los que se acercan al local para compartir con nosotros. Si aún no viniste recordá que estamos abiertos de 12 a 19hs, de Jueves a Domingos. También contamos con delivery en zona de Ingeniero Maschwitz o podes pasar a retirar tu pedido hasta las 20 hs.</p>
             
         </div>
         
-        <img class="gente col-xl-6 col-sm-10" src="../assets/img/gente.jpg" alt="Foto con clientes y amigos">
+        <img class="gente col-xl-6 col-sm-10" data-aos="zoom-in-left" src="../assets/img/gente.jpg" alt="Foto con clientes y amigos">
     
     </main>
     <aside></aside>
@@ -72,11 +73,17 @@
             
             <div class="redes">
             <a href="https://www.instagram.com/somospacifica/" target="_blank"><img src="../assets/img/instagram.png" alt="instagram pacifica"></a>
-            <a href="https://api.whatsapp.com/send?phone=541156526573&text=Bienvenid@s%20a%20Pacifica" target="_blank"><img src="../assets/img/whatsapp.png" alt="whatsapp Pacifica
+            <a href="https://api.whatsapp.com/send?phone=541156526573&text=Bienvenid@s%20a%20Pacifica" target="_blank"><img src="../assets/img/whatsapp.png" alt="whatsapp Pacifica"></a>
             <a href="https://www.facebook.com/Somos-Pacifica-103058182045921" target="_blank"><img src="../assets/img/facebook.png" alt="facebook pacifica"></a>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+    </script>
 </body>
 </html>
