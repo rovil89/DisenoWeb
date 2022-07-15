@@ -5,11 +5,19 @@ header{
     display: inline-block;
     width: 97.5px;
     height: 98px;
+    &:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
     }
 @media(max-width:576px){
     img{
         width: 37.8px;
         height: 40px;
+        &:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
     }
 }
 }

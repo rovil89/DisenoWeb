@@ -22,6 +22,8 @@ body {
   display: flex;
   justify-content: space-between;
   top: 0;
+  z-index: 1;
+  
 }
 .navbar ul {
   list-style: none;
@@ -39,10 +41,18 @@ header img {
   width: 97.5px;
   height: 98px;
 }
+header img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
 @media (max-width: 576px) {
   header img {
     width: 37.8px;
     height: 40px;
+  }
+  header img:hover {
+    transform: scale(1.1);
+    transition: 1s;
   }
 }
 
@@ -52,10 +62,6 @@ main {
 
 .morfame {
   flex-direction: row;
-}
-.morfame:hover {
-  transform: scale(1.1);
-  transition: 1s;
 }
 
 h1 {
