@@ -12,7 +12,7 @@ header{
     }
 @media(max-width:576px){
     img{
-        width: 37.8px;
+        width: 28px;
         height: 40px;
         &:hover {
             transform: scale(1.1);
@@ -20,4 +20,15 @@ header{
         }
     }
 }
+}
+@media (max-width: 448px) {
+    .pizzas img{
+    width: 26.5px;
+    height: 40px;
+    margin-right: 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
 }

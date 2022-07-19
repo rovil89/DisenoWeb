@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     top: 0;
+    z-index: 1;
 }
 .pizzas{
     grid-area: pizzas;
@@ -44,11 +45,20 @@ body {
 footer h5{
     font-style: italic;
     color: black;
-    font-size: 15px;
+    font-size: 10px;
 }
 footer img:hover {
     transform: scale(1.1);
     transition: 1s;
+}
+@media (max-width: 448px) {
+
+    footer img {
+        width: 15px;
+        height: 15px;
+        margin-right: 4px;
+    }
+    h5{margin-top: 5px;}
 }
 
 body header img {
@@ -104,4 +114,15 @@ body main{
         width: 39.5px;
         height: 39.5px;
     }
+}
+@media (max-width: 448px) {
+    .pizzas img{
+    width: 26.5px;
+    height: 40px;
+    margin-right: 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    
 }

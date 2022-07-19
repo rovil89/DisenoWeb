@@ -54,6 +54,13 @@ header img:hover {
     transition: 1s;
   }
 }
+@media (max-width: 448px) {
+  header img {
+    width: 28px;
+    height: 40px;
+  }
+ }
+
 
 main {
   grid-area: principal;
@@ -82,7 +89,8 @@ footer {
 footer h5 {
   font-style: italic;
   color: black;
-  font-size: 15px;
+  font-size: 10px;
+  
 }
 footer img {
   width: 25px;
@@ -93,6 +101,15 @@ footer img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+@media (max-width: 448px) {
+
+  footer img {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+  }
+  h5{margin-top: 5px;}
+ }
 
 .btn-primario {
   background-color: rgb(134, 235, 39);

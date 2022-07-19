@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     top: 0;
+    z-index: 1;
 }
 .pizzas{
     grid-area: pizzas;
@@ -91,12 +92,13 @@ body main img {
 footer h5{
     font-style: italic;
     color: black;
-    font-size: 15px;
+    font-size: 10px;
 }
 footer img:hover {
     transform: scale(1.1);
     transition: 1s;
 }
+
 hr{
     color: white;
 
@@ -137,4 +139,19 @@ main p{
             align-items: center;
             flex-direction: column;
         }
+    }
+    @media (max-width: 448px) {
+        .pizzas img{
+        width: 26.5px;
+        height: 40px;
+        margin-right: 0px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .gente {
+            width: 100%;
+
+        }
+        
     }
