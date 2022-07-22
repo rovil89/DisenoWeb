@@ -123,3 +123,43 @@ footer img:hover {
             height: 65%;
         }
     }
+    .btn-primario {
+        background-color: rgb(134, 235, 39);
+    }
+    
+    .btn-secundario {
+        background-color: rgb(12, 206, 240);
+    }
+    
+    .btn-terciario {
+        background-color: rgba(225, 40, 241, 0.932);
+    }
+    
+    .tarjeta {
+        margin: 10px;
+        padding: 5px 5px;
+    }
+    
+    button {
+        color: #fff;
+    }
+    .btn, .btn-primario, .btn-secundario, .btn-terciario {
+        margin: 10px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    
+    .tarjeta {
+        width: 100%;
+        height: auto;
+    }
+    
+    button {
+        width: 95%;
+        height: auto;
+    }
+    
+    .imgCard {
+        width: 100%;
+        height: auto;
+    }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style3.css">
     <title>Productos Pacifica</title>
 </head>
@@ -55,9 +56,51 @@
 
     <main class="principal  row justify-content-center align-item-center">
         <h1>Productos Pacifica</h1>
-        <br>
-        <iframe class="video col-9 col-sm-9 m-3 " width="" height="500" src="https://www.youtube.com/embed/muO41Tuog00" title="Pizzeria Los Campeones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+        <div  class="row justify-content-center " >
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25"  data-aos="zoom-in" >
+                <img class="imgCard img-fluid " src="../assets/img/4ke.jpeg" alt="Pizza cuatro quesos">
+                <button type="button" class=" border d-flex justify-content-center btn-primario ">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/RucuCrudo.jpeg" alt="Pizza Rucula y crudo">
+                <button type="button" class=" border d-flex justify-content-center btn-secundario">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/jamonMorron.jpeg" alt="Pizza Jamon y Morron">
+                <button type="button" class=" border d-flex justify-content-center btn-terciario ">Comprar</button>
+            </div>
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/Berenjena.jpeg" alt="Pizza Berenjena">
+                <button type="button" class=" border d-flex justify-content-center btn-primario ">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/cebollaHongVeg.jpeg" alt="Pizza Cebolla y hongos">
+                <button type="button" class="border d-flex justify-content-center btn-secundario ">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/Provolone.jpeg" alt="Pizza Provolone">
+                <button type="button" class=" border d-flex justify-content-center btn-terciario ">Comprar</button>
+            </div>
+
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/Muzza.jpeg" alt="Pizza Muzzarella">
+                <button type="button" class=" border d-flex justify-content-center btn-primario ">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/MuzzaVegana.jpeg" alt="Pizza Muzzarella Vegana">
+                <button type="button" class="border d-flex justify-content-center btn-secundario ">Comprar</button>
+            </div>
+        
+            <div class="tarjeta col-xl-4 col-sm-4 d-flex flex-column w-25" data-aos="zoom-in">
+                <img class="imgCard img-fluid " src="../assets/img/Faina.jpeg" alt="Faina">
+                <button type="button" class=" border d-flex justify-content-center btn-terciario  ">Comprar</button>
+            </div>
+        </div>
     </main>
     
     <footer class="py-1 piso">
@@ -74,5 +117,11 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+    </script>
 </body>
 </html>

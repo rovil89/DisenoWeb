@@ -46,7 +46,7 @@ header img:hover {
 }
 @media (max-width: 576px) {
   header img {
-    width: 37.8px;
+    width: 38px;
     height: 40px;
   }
   header img:hover {
@@ -54,14 +54,17 @@ header img:hover {
     transition: 1s;
   }
 }
+
 @media (max-width: 448px) {
-  header img {
-    width: 28px;
+  .pizzas img {
+    width: 26.5px;
     height: 40px;
+    margin-right: 0px;
   }
- }
-
-
+  h1 {
+    font-size: 40px;
+  }
+}
 main {
   grid-area: principal;
 }
@@ -82,6 +85,11 @@ p {
   margin: 15px;
 }
 
+@media (max-width: 576px) {
+  .morfame {
+    width: 100%;
+  }
+}
 footer {
   grid-area: piso;
   background-color: aqua;
@@ -89,11 +97,10 @@ footer {
 footer h5 {
   font-style: italic;
   color: black;
-  font-size: 10px;
-  
+  font-size: 15px;
 }
 footer img {
-  width: 25px;
+  width: 10px;
   height: 25px;
   margin-right: 5px;
 }
@@ -101,15 +108,6 @@ footer img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-@media (max-width: 448px) {
-
-  footer img {
-    width: 15px;
-    height: 15px;
-    margin-right: 4px;
-  }
-  h5{margin-top: 5px;}
- }
 
 .btn-primario {
   background-color: rgb(134, 235, 39);
