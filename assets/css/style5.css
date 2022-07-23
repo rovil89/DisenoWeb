@@ -154,6 +154,20 @@ body main img {
     .logot{
         margin-right: 10%;
     }
+    .pizzas img{
+        width: 37.9px;
+        height: 40px;
+    }
+
+    .principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .gente{
+        margin-right: 10%;
+    }
     
     
 
@@ -188,20 +202,7 @@ main p{
     border-color: aqua;
 }
 
-@media(max-width:576px){
-    .pizzas img{
-            width: 37.9px;
-            height: 40px;
-        }
-    
-    .principal{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    }
-    @media (max-width: 448px) {
+@media (max-width: 448px) {
         .pizzas img{
         width: 26.5px;
         height: 40px;
@@ -211,7 +212,7 @@ main p{
             font-size: 40px;
         }
         .gente {
-            width: 100%;
+            width: 90%;
 
         }
         
