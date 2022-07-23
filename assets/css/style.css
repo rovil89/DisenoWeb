@@ -113,6 +113,7 @@ footer img:hover {
 .Parrafo {
   font-size: 10px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .logof {
@@ -122,9 +123,9 @@ footer img:hover {
   margin-top: 15px;
 }
 
-.ffred {
+.redsoc {
   margin-top: 15px;
-  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .red {
@@ -139,13 +140,14 @@ footer img:hover {
 }
 
 .logot {
-  margin-right: 15%;
+  margin-left: 15%;
 }
 
 @media (max-width: 576px) {
   .Parrafo {
     font-size: 10px;
     text-align: center;
+    margin-top: 15px;
   }
   .logof {
     width: 30px;
@@ -153,20 +155,18 @@ footer img:hover {
     margin-left: 40%;
     margin-top: 15px;
   }
-  .ffred {
+  .redsoc {
     margin-top: 15px;
   }
   .red {
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
   }
   .redes {
     margin-top: 10px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
-  }
-  .logot {
-    margin-right: 10%;
   }
 }
 .btn-primario {

@@ -49,15 +49,76 @@ body {
     grid-area: piso;
     background-color:aqua 
 }
-footer h5{
-    font-style: italic;
-    color: black;
+.Parrafo{
     font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
 }
-footer img:hover {
-    transform: scale(1.1);
-    transition: 1s;
+
+.logof{
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 15px;
+
 }
+.redsoc{
+    margin-top: 15px;
+    margin-right: 15%;
+}
+
+.red{
+    margin: 15px;
+    padding: 10px;
+}
+.redes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.logot{
+    margin-left: 15%;
+}
+@media(max-width:576px){
+    .Parrafo{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .logof{
+        width: 30px;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: 15px;
+    
+    }
+    .redsoc{
+        margin-top: 15px;
+    
+    }
+    
+    .red{
+        margin: 10px;
+        padding: 5px;
+    }
+    .redes{
+        margin-top: 10px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .logot{
+        margin-right: 10%;
+    }
+    
+    
+
+}
+
 @media (max-width: 448px) {
 
     footer img {
