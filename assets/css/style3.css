@@ -93,6 +93,15 @@ hr{
         margin-right: 4px;
     }
     h5{margin-top: 5px;}
+    .pizzas img{
+        width: 26.5px;
+        height: 40px;
+        margin-right: 0px;
+        }
+    h1 {
+            font-size: 40px;
+        }
+
 }
 @media(max-width:576px){
     .pizzas img{
@@ -101,20 +110,7 @@ hr{
         }
     
     }
-    @media (max-width: 448px) {
-        .pizzas img{
-        width: 26.5px;
-        height: 40px;
-        margin-right: 0px;
-        }
-        h1 {
-            font-size: 40px;
-        }
-        .video {
-            width: 90%;
-            height: 65%;
-        }
-    }
+
     .btn-primario {
         background-color: rgb(134, 235, 39);
     }
@@ -146,7 +142,7 @@ hr{
         height: auto;
     }
     
-    button {
+    .buttons {
         width: 95%;
         height: auto;
     }
