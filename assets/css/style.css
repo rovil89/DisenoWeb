@@ -97,18 +97,78 @@ footer {
 footer h5 {
   font-style: italic;
   color: black;
-  font-size: 15px;
+  font-size: 10px;
 }
 footer img {
-  width: 10px;
+  width: 25px;
   height: 25px;
   margin-right: 5px;
+  margin-top: 10px;
 }
 footer img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
 
+.Parrafo {
+  font-size: 10px;
+  text-align: center;
+}
+
+.logof {
+  width: 50px;
+  height: 50px;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+.ffred {
+  margin-top: 15px;
+  margin-left: 15%;
+}
+
+.red {
+  margin: 15px;
+  padding: 10px;
+}
+
+.redes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logot {
+  margin-right: 15%;
+}
+
+@media (max-width: 576px) {
+  .Parrafo {
+    font-size: 10px;
+    text-align: center;
+  }
+  .logof {
+    width: 30px;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 15px;
+  }
+  .ffred {
+    margin-top: 15px;
+  }
+  .red {
+    margin: 15px;
+    padding: 10px;
+  }
+  .redes {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logot {
+    margin-right: 10%;
+  }
+}
 .btn-primario {
   background-color: rgb(134, 235, 39);
 }
