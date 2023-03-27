@@ -18,6 +18,7 @@ body {
 .navbar {
   grid-area: navbar;
   background-color: aqua;
+  position: -webkit-sticky;
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -201,9 +202,12 @@ button {
   height: auto;
 }
 
-
+button {
+  width: 95%;
+  height: auto;
+}
 
 .imgCard {
   width: 100%;
   height: auto;
-}
+}/*# sourceMappingURL=style.css.map */
